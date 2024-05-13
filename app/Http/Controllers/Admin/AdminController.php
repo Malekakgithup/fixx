@@ -29,7 +29,7 @@ class AdminController extends Controller
             'name' => $request->name,
             'email' => $email,
             'password' => Hash::make($password),
-            'role' => 'worker'
+            'role' => 'workr'
         ]);
 
         return response()->json(['user' => $user]);
