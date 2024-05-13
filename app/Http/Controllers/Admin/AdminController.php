@@ -13,7 +13,6 @@ use SimpleSoftwareIO\QrCode\Facades\QrCode;
 
 class AdminController extends Controller
 {
-    
 
     public function AddElectrical(Request $request)
     {
